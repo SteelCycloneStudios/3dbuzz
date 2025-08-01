@@ -1,0 +1,131 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Buzz Archive</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <button id="menu-toggle" aria-label="Toggle Menu">
+            <svg viewBox="0 0 100 80" width="30" height="30" fill="#fff">
+                <rect width="100" height="15" rx="8"></rect>
+                <rect y="30" width="100" height="15" rx="8"></rect>
+                <rect y="60" width="100" height="15" rx="8"></rect>
+            </svg>
+        </button>
+        <img src="logo.png" alt="3D Buzz" class="header-logo">
+        <h1>3D Buzz Archive</h1>
+    </header>
+
+    <nav id="slide-nav">
+        <button id="close-nav" aria-label="Close Menu">&times;</button>
+        <ul>
+            <li><a href="#home" class="nav-link">Home / Courses</a></li>
+            <li><a href="#about" class="nav-link">About 3D Buzz</a></li>
+            <li><a href="#featured" class="nav-link">Featured Courses</a></li>
+            <li><a href="#paths" class="nav-link">Learning Paths</a></li>
+        </ul>
+    </nav>
+    <div id="overlay"></div>
+
+
+    <main>
+        <div class="hero-section">
+            <h2>Welcome to the 3D Buzz Archive</h2>
+            <p>Preserving decades of world-class 3D animation, game development, and programming education</p>
+        </div>
+        <section id="home" class="content-section active">
+            <h2>Courses</h2>
+            <div id="courses-container">
+                <p class="loading-message">Loading course data...</p> 
+                <!-- Hardcoded 3ds Max 101 series will be loaded here by script.js -->
+            </div>
+        </section>
+
+        <section id="about" class="content-section">
+            <h2>About 3D Buzz</h2>
+            <article>
+                <h3>Our Story</h3>
+                <p>3D Buzz, Inc. was an online learning platform founded by Jason Busby, Zak Parrish, and Logan Frank, dedicated to providing high-quality, accessible training in 3D animation, game development, programming, and digital art. Launched in the early 2000s, it quickly grew into a vibrant community for aspiring and professional artists and developers.</p>
+                
+                <div class="founder-portrait">
+                    <img src="jasonbusby.png" alt="Jason Busby" class="founder-image">
+                    <p class="founder-name">Jason Busby</p>
+                </div>
+                
+                <p>As a parting gift due to the death from its founder, Jason Busby, 3D Buzz has made all of their courses available for FREE. Known for his books on level designs in previous versions of the Unreal Engine, Busby passed away in 2017 from cancer. 3D Buzz never recovered from that loss, it did not generate new content, and at the same time, some of its available courses were out of date. Still, everything is free and a lot is still useful for new and beginning game developers and designers. The video tutorials are in mp4 format so all video players should play these without any issues. There is 225GB's worth of content!</p>
+                
+                <h3>Mission and Impact</h3>
+                <p>Their mission was to deliver comprehensive, project-based education that empowered individuals to achieve their creative and technical goals. 3D Buzz was known for its in-depth video tutorials, often characterized by a relaxed, conversational teaching style, making complex topics approachable. Many professionals in the games and VFX industries today credit 3D Buzz for providing foundational knowledge early in their careers.</p>
+                <h3>Legacy</h3>
+                <p>While 3D Buzz ceased operations, its vast library of content remains a valuable resource. This archive aims to preserve and organize that legacy, allowing a new generation to benefit from the wealth of knowledge shared by the 3D Buzz team. The focus remains on education, community, and fostering creativity, honoring the spirit of the original platform.</p>
+            </article>
+        </section>
+
+        <section id="featured" class="content-section">
+            <h2>Featured Courses</h2>
+            <p>Check out some of the most popular and comprehensive series:</p>
+            <ul class="featured-list">
+                <li>Introduction to Maya</li>
+                <li>C++ Programming Fundamentals</li>
+                <li>Unreal Engine Development</li>
+                <li>Character Modeling and Animation</li>
+                <!-- Add more based on data analysis later -->
+            </ul>
+             <p><em>Note: Actual featured courses will be determined once the full archive is processed.</em></p>
+        </section>
+
+        <section id="paths" class="content-section">
+            <h2>Recommended Learning Paths</h2>
+            <p>Structure your learning with these suggested paths:</p>
+            <div class="learning-path">
+                <h3>Game Development Foundation</h3>
+                <ol>
+                    <li>C++ Programming Fundamentals</li>
+                    <li>Introduction to Unreal Engine / Unity (Select Engine)</li>
+                    <li>Basic 3D Modeling (e.g., Intro to Maya/Blender)</li>
+                    <li>Game Design Principles</li>
+                </ol>
+            </div>
+            <div class="learning-path">
+                <h3>3D Animation & VFX</h3>
+                <ol>
+                    <li>Introduction to Maya / 3ds Max / Blender (Select Software)</li>
+                    <li>Character Modeling</li>
+                    <li>Texturing and Shading</li>
+                    <li>Rigging and Animation</li>
+                    <li>Compositing Basics</li>
+                </ol>
+            </div>
+             <p><em>Note: Actual learning paths will be refined based on the available content.</em></p>
+        </section>
+    </main>
+
+    <!-- Video Modal -->
+    <div id="video-modal" class="modal" aria-hidden="true">
+        <div class="modal-content">
+            <button class="close-modal" aria-label="Close modal">&times;</button>
+            <h3 id="modal-title">Video Title</h3>
+            <div class="video-player-container">
+                <video id="modal-video" controls preload="metadata">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div id="modal-series-nav" style="display: none;">
+                 <p id="modal-episode-info"></p>
+                 <button id="modal-prev">&laquo; Previous</button>
+                 <button id="modal-next">Next &raquo;</button>
+                 <select id="modal-episode-select"></select>
+            </div>
+             <p id="modal-video-description"></p> 
+        </div>
+    </div>
+
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
