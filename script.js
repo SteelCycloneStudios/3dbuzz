@@ -90,7 +90,7 @@ const androidSeries = [
     { name: 'Episode 5: The Android Build System', path: 'https://archive.org/download/3dbuzz-archive/app-development-with-android-part-01/001-mobile-app-development-with-android/005-the-android-build-system.mp4' },
     { name: 'Episode 6: Android Project Directory Structure', path: 'https://archive.org/download/3dbuzz-archive/app-development-with-android-part-01/001-mobile-app-development-with-android/006-android-project-directory-structure.mp4' },
     { name: 'Episode 7: Extending the Build Process with Flavors', path: 'https://archive.org/download/3dbuzz-archive/app-development-with-android-part-01/001-mobile-app-development-with-android/007-extending-the-build-process-with-flavors.mp4' },
-    { name: 'Episode 8: Activities from Scratch and Linear Layouts', path: 'https://archive.org/download/3dbuzz-archive/app-development-with-android-part-01/001-mobile-app-development-with-android/008-activities-from-scratch-and-liniear-layouts.mp4' },
+    { name: 'Episode 8: Activities from Scratch and Linear Layouts', path: 'https://archive.org/download/3dbuzz-archive/app-development-with-android-part-01/001-mobile-app-development-with-android/008-activities-from-scratch-and-linear-layouts.mp4' },
     { name: 'Episode 9: Click Handlers and Inner Classes', path: 'https://archive.org/download/3dbuzz-archive/app-development-with-android-part-01/001-mobile-app-development-with-android/009-click-handlers-and-inner-classes.mp4' },
     { name: 'Episode 10: Relative Views', path: 'https://archive.org/download/3dbuzz-archive/app-development-with-android-part-02/001-mobile-app-development-with-android/010-relative-views.mp4' },
     { name: 'Episode 11: Layout Includes', path: 'https://archive.org/download/3dbuzz-archive/app-development-with-android-part-02/001-mobile-app-development-with-android/011-layout-includes.mp4' },
@@ -206,6 +206,124 @@ const pushNotificationsExternalLoginsSeries = [
     { name: 'Episode 5: Conclusion', path: 'https://archive.org/download/3dbuzz-archive/app-development-with-android-part-10/011-push-notifications-external-logins/005-conclusion.mp4' },
 ];
 
+const modelingOnTheFlySeries = [
+    { name: 'Episode 1: AT-AT Getting Started Pt1', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-01/001-atat/001-atat-getting-started-pt1.mp4' },
+    { name: 'Episode 2: AT-AT Creating the Base Foot Shell Pt2', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-01/001-atat/002-atat-creating-the-base-foot-shell-pt2.mp4' },
+    { name: 'Episode 3: AT-AT Creating the Toe Foot Pad Pt3', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-01/001-atat/003-atat-creating-the-toe-foot-pad-pt3.mp4' },
+    { name: 'Episode 4: AT-AT The Underside of the Foot Pt4', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-01/001-atat/004-atat-the-underside-of-the-foot-pt4.mp4' },
+    { name: 'Episode 5: AT-AT Ankle Track Pt 5', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-01/001-atat/005-atat-ankle-track-pt-5.mp4' },
+    { name: 'Episode 6: AT-AT Foot/Ankle Detailing Pt 6', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-01/001-atat/006-atat-footankle-detailing-pt-6.mp4' },
+    { name: 'Episode 7: AT-AT Creating the Ankle Pt 7', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-01/001-atat/007-atat-creating-the-ankle-pt-7.mp4' },
+    { name: 'Episode 8: AT-AT Creating the Lower Leg Pt 8', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-02/001-atat/008-atat-creating-the-lower-leg-pt-8.mp4' },
+    { name: 'Episode 9: AT-AT Upper Leg Pt 9', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-02/001-atat/009-atat-upper-leg-pt-9.mp4' },
+    { name: 'Episode 10: AT-AT Creating the Upper Leg Pt 10', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-02/001-atat/010-atat-creating-the-upper-leg-pt-10.mp4' },
+    { name: 'Episode 11: AT-AT Creating the Drive Plate Pt 11', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-02/001-atat/011-atat-creating-the-drive-plate-pt-11.mp4' },
+    { name: 'Episode 12: AT-AT Front TransDrive Pt 12', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-02/001-atat/012-atat-front-transdrive-pt-12.mp4' },
+    { name: 'Episode 13: AT-AT Rear TransDrive Pt 13', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-02/001-atat/013-atat-reartransdrive-pt-13.mp4' },
+    { name: 'Episode 14: AT-AT TransDrive and Armor Pt 14', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-03/001-atat/014-atat-transdrive-and-armor-pt-14.mp4' },
+    { name: 'Episode 15: AT-AT Detailing the Troop Area Pt 15', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-03/001-atat/015-atat-detailing-the-troop-area-pt-15.mp4' },
+    { name: 'Episode 16: AT-AT More Troop Area Detailing Pt 16', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-03/001-atat/016-atat-more-troop-area-detailing-pt-16.mp4' },
+    { name: 'Episode 17: AT-AT Still Detailing Troop Area Pt 17', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-03/001-atat/017-atat-still-detailing-troop-area-pt-17.mp4' },
+    { name: 'Episode 18: AT-AT Forward Troop Area Pt 18', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-03/001-atat/018-atat-forward-troop-area-pt-18.mp4' },
+    { name: 'Episode 19: AT-AT Fwd Troop Area Pt 19', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-03/001-atat/019-atat-fwd-troop-area-pt-19.mp4' },
+    { name: 'Episode 20: AT-AT Neck Area Pt 20', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-03/001-atat/020-atat-neck-area-pt-20.mp4' },
+    { name: 'Episode 21: AT-AT Neck and Rear Area Pt 21', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-03/001-atat/021-atatneck-and-rear-area-pt-21.mp4' },
+    { name: 'Episode 22: AT-AT Rear Troop Area Pt 22', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-04/001-atat/022-atatrear-troop-area-pt-22.mp4' },
+    { name: 'Episode 23: AT-AT Starting the Head Pt 23', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-04/001-atat/023-atatstarting-the-head-pt-23.mp4' },
+    { name: 'Episode 24: AT-AT Head Continued Pt 24', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-04/001-atat/024-atat-head-continued-pt-24.mp4' },
+    { name: 'Episode 25: AT-AT Head Detailing Pt 25', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-04/001-atat/025-atat-head-detailing-pt-25.mp4' },
+    { name: 'Episode 26: AT-AT Head Armor Pt 26', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-04/001-atat/026-atat-head-armor-pt-26.mp4' },
+    { name: 'Episode 27: AT-AT Head Details Pt 27', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-04/001-atat/027-atat-head-details-pt-27.mp4' },
+    { name: 'Episode 28: AT-AT Head Details Part 28', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-04/001-atat/028-atat-head-details-part-28.mp4' },
+    { name: 'Episode 29: AT-AT Head Details Part 29', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-05/001-atat/029-atat-head-details-part-29.mp4' },
+    { name: 'Episode 30: AT-AT Head Details Part 30', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-05/001-atat/030-atat-head-details-part-30.mp4' },
+    { name: 'Episode 31: AT-AT Head Details Part 31', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-05/001-atat/031-atat-head-details-part-31.mp4' },
+    { name: 'Episode 32: AT-AT Head Details Part 32', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-05/001-atat/032-atat-head-details-part-32.mp4' },
+    { name: 'Episode 33: AT-AT Head Details Part 33', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-05/001-atat/033-atat-head-details-part-33.mp4' },
+    { name: 'Episode 34: AT-AT Head Details Part 34', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-05/001-atat/034-atat-head-details-part-34.mp4' },
+    { name: 'Episode 35: AT-AT Head Details Part 35', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-05/001-atat/035-atat-head-details-part-35.mp4' },
+    { name: 'Episode 36: AT-AT Head Details Part 36', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-05/001-atat/036-atat-head-details-part-36.mp4' },
+    { name: 'Episode 37: AT-AT Head Details Part 37', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-06/001-atat/037-atat-head-details-part-37.mp4' },
+    { name: 'Episode 38: AT-AT Head Details Part 38', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-06/001-atat/038-atat-head-details-part-38.mp4' },
+    { name: 'Episode 39: AT-AT Side Cannons Part 39', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-06/001-atat/039-atat-side-cannons-part-39.mp4' },
+    { name: 'Episode 40: AT-AT Side Cannons Part 40', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-06/001-atat/040-atat-side-cannons-part-40.mp4' },
+    { name: 'Episode 41: AT-AT Head Wrapup Part 41', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-06/001-atat/041-atat-head-wrapup-part-41.mp4' },
+    { name: 'Episode 42: AT-AT Top of Body Part 42', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-06/001-atat/042-atat-top-of-body-part-42.mp4' },
+    { name: 'Episode 43: AT-AT Top of Body Part 43', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-06/001-atat/043-atat-top-of-body-part-43.mp4' },
+    { name: 'Episode 44: AT-AT Top of Body Part 44', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-07/001-atat/044-atat-top-of-body-part-44.mp4' },
+    { name: 'Episode 45: AT-AT Rear Panel Part 45', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-07/001-atat/045-atat-rear-panel-part-45.mp4' },
+    { name: 'Episode 46: AT-AT Rear Panel Part 46', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-07/001-atat/046-atat-rear-panel-part-46.mp4' },
+    { name: 'Episode 47: AT-AT Rear Panel Part 47', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-07/001-atat/047-atat-rear-panel-part-47.mp4' },
+    { name: 'Episode 48: AT-AT Rear Panel and Underside Part 48', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-07/001-atat/048-atat-rear-panel-and-underside-part-48.mp4' },
+    { name: 'Episode 49: AT-AT Finalization Part 49', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-on-the-fly-atat-part-07/001-atat/049-atat-finalization-part-49.mp4' },
+];
+
+const viperSeries = [
+    { name: 'Episode 1: 3ds Max Modeling on the Fly Episode 1', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-01/001-viper/001-3ds-max-modeling-on-the-fly-episode-1.mp4' },
+    { name: 'Episode 2: 3ds Max Modeling on the Fly Episode 2', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-01/001-viper/002-3ds-max-modeling-on-the-fly-episode-2.mp4' },
+    { name: 'Episode 3: 3ds Max Modeling on the Fly Episode 3', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-01/001-viper/003-3ds-max-modeling-on-the-fly-episode-3.mp4' },
+    { name: 'Episode 4: 3ds Max Modeling on the Fly Episode 4', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-01/001-viper/004-3ds-max-modeling-on-the-fly-episode-4.mp4' },
+    { name: 'Episode 5: 3ds Max Modeling on the Fly Episode 5', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-01/001-viper/005-3ds-max-modeling-on-the-fly-episode-5.mp4' },
+    { name: 'Episode 6: 3ds Max Modeling on the Fly Episode 6', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-01/001-viper/006-3ds-max-modeling-on-the-fly-episode-6.mp4' },
+    { name: 'Episode 7: 3ds Max Modeling on the Fly Episode 7', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-01/001-viper/007-3ds-max-modeling-on-the-fly-episode-7.mp4' },
+    { name: 'Episode 8: 3ds Max Modeling on the Fly Episode 8', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-01/001-viper/008-3ds-max-modeling-on-the-fly-episode-8.mp4' },
+    { name: 'Episode 9: 3ds Max Modeling on the Fly Episode 10', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-02/001-viper/009-3ds-max-modeling-on-the-fly-episode-10.mp4' },
+    { name: 'Episode 10: 3ds Max Modeling on the Fly Episode 9', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-02/001-viper/010-3ds-max-modeling-on-the-fly-episode-9.mp4' },
+    { name: 'Episode 11: 3ds Max Modeling on the Fly Episode 11', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-02/001-viper/011-3ds-max-modeling-on-the-fly-episode-11.mp4' },
+    { name: 'Episode 12: 3ds Max Modeling on the Fly Episode 12', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-02/001-viper/012-3ds-max-modeling-on-the-fly-episode-12.mp4' },
+    { name: 'Episode 13: 3ds Max Modeling on the Fly Episode 13', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-02/001-viper/013-3ds-max-modeling-on-the-fly-episode-13.mp4' },
+    { name: 'Episode 14: 3ds Max Modeling on the Fly Episode 14', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-02/001-viper/014-3ds-max-modeling-on-the-fly-episode-14.mp4' },
+    { name: 'Episode 15: 3ds Max Modeling on the Fly Episode 15', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-02/001-viper/015-3ds-max-modeling-on-the-fly-episode-15.mp4' },
+    { name: 'Episode 16: 3ds Max Modeling on the Fly Episode 16', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-02/001-viper/016-3ds-max-modeling-on-the-fly-episode-16.mp4' },
+    { name: 'Episode 17: 3ds Max Modeling on the Fly Episode 17', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-02/001-viper/017-3ds-max-modeling-on-the-fly-episode-17.mp4' },
+    { name: 'Episode 18: 3ds Max Modeling on the Fly Episode 18', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-02/001-viper/018-3ds-max-modeling-on-the-fly-episode-18.mp4' },
+    { name: 'Episode 19: 3ds Max Modeling on the Fly Episode 19', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-02/001-viper/019-3ds-max-modeling-on-the-fly-episode-19.mp4' },
+    { name: 'Episode 20: 3ds Max Modeling on the Fly Episode 20', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-02/001-viper/020-3ds-max-modeling-on-the-fly-episode-20.mp4' },
+    { name: 'Episode 21: 3ds Max Modeling on the Fly Episode 21', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-03/001-viper/021-3ds-max-modeling-on-the-fly-episode-21.mp4' },
+    { name: 'Episode 22: 3ds Max Modeling on the Fly Episode 22', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-03/001-viper/022-3ds-max-modeling-on-the-fly-episode-22.mp4' },
+    { name: 'Episode 23: 3ds Max Modeling on the Fly Episode 23', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-03/001-viper/023-3ds-max-modeling-on-the-fly-episode-23.mp4' },
+    { name: 'Episode 24: 3ds Max Modeling on the Fly Episode 24', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-03/001-viper/024-3ds-max-modeling-on-the-fly-episode-24.mp4' },
+    { name: 'Episode 25: 3ds Max Modeling on the Fly Episode 25', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-03/001-viper/025-3ds-max-modeling-on-the-fly-episode-25.mp4' },
+    { name: 'Episode 26: 3ds Max Modeling on the Fly Episode 26', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-03/001-viper/026-3ds-max-modeling-on-the-fly-episode-26.mp4' },
+    { name: 'Episode 27: 3ds Max Modeling on the Fly Episode 27', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-03/001-viper/027-3ds-max-modeling-on-the-fly-episode-27.mp4' },
+    { name: 'Episode 28: 3ds Max Modeling on the Fly Episode 28', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-03/001-viper/028-3ds-max-modeling-on-the-fly-episode-28.mp4' },
+    { name: 'Episode 29: 3ds Max Modeling on the Fly Episode 29', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-03/001-viper/029-3ds-max-modeling-on-the-fly-episode-29.mp4' },
+    { name: 'Episode 30: 3ds Max Modeling on the Fly Episode 30', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-03/001-viper/030-3ds-max-modeling-on-the-fly-episode-30.mp4' },
+    { name: 'Episode 31: 3ds Max Modeling on the Fly Episode 31', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-03/001-viper/031-3ds-max-modeling-on-the-fly-episode-31.mp4' },
+    { name: 'Episode 32: 3ds Max Modeling on the Fly Episode 32', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-03/001-viper/032-3ds-max-modeling-on-the-fly-episode-32.mp4' },
+    { name: 'Episode 33: 3ds Max Modeling on the Fly Episode 33', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-04/001-viper/033-3ds-max-modeling-on-the-fly-episode-33.mp4' },
+    { name: 'Episode 34: 3ds Max Modeling on the Fly Episode 34', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-04/001-viper/034-3ds-max-modeling-on-the-fly-episode-34.mp4' },
+    { name: 'Episode 35: 3ds Max Modeling on the Fly Episode 35', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-04/001-viper/035-3ds-max-modeling-on-the-fly-episode-35.mp4' },
+    { name: 'Episode 36: 3ds Max Modeling on the Fly Episode 36', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-04/001-viper/036-3ds-max-modeling-on-the-fly-episode-36.mp4' },
+    { name: 'Episode 37: 3ds Max Modeling on the Fly Episode 37', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-04/001-viper/037-3ds-max-modeling-on-the-fly-episode-37.mp4' },
+    { name: 'Episode 38: 3ds Max Modeling on the Fly Episode 38', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-04/001-viper/038-3ds-max-modeling-on-the-fly-episode-38.mp4' },
+    { name: 'Episode 39: 3ds Max Modeling on the Fly Episode 39', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-04/001-viper/039-3ds-max-modeling-on-the-fly-episode-39.mp4' },
+    { name: 'Episode 40: 3ds Max Modeling on the Fly Episode 40', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-04/001-viper/040-3ds-max-modeling-on-the-fly-episode-40.mp4' },
+    { name: 'Episode 41: 3ds Max Modeling on the Fly Episode 41', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-04/001-viper/041-3ds-max-modeling-on-the-fly-episode-41.mp4' },
+    { name: 'Episode 42: 3ds Max Modeling on the Fly Episode 42', path: 'https://archive.org/download/3dbuzz-archive/3ds-max-modeling-viper-part-04/001-viper/042-3ds-max-modeling-on-the-fly-episode-42.mp4' },
+];
+
+const zbrushIntroSeries = [
+    { name: 'Episode 1: Introduction', path: 'https://archive.org/download/3dbuzz-archive/zbrush-introduction-part-01/001-zbrush-introduction/001-1-introduction.mp4' },
+    { name: 'Episode 2: What is ZBrush', path: 'https://archive.org/download/3dbuzz-archive/zbrush-introduction-part-01/001-zbrush-introduction/002-2-what-is-zbrush.mp4' },
+    { name: 'Episode 3: 2.5D World', path: 'https://archive.org/download/3dbuzz-archive/zbrush-introduction-part-01/001-zbrush-introduction/003-3-25d-world.mp4' },
+    { name: 'Episode 4: Intro to Sculpting', path: 'https://archive.org/download/3dbuzz-archive/zbrush-introduction-part-01/001-zbrush-introduction/004-4-intro-to-sculpting.mp4' },
+    { name: 'Episode 5: Intro to ZSpheres', path: 'https://archive.org/download/3dbuzz-archive/zbrush-introduction-part-01/001-zbrush-introduction/005-5-intro-to-zspheres.mp4' },
+    { name: 'Episode 6: What are ZSpheres', path: 'https://archive.org/download/3dbuzz-archive/zbrush-introduction-part-01/001-zbrush-introduction/006-6-what-are-zspheres.mp4' },
+    { name: 'Episode 7: Using ZSpheres 101', path: 'https://archive.org/download/3dbuzz-archive/zbrush-introduction-part-01/001-zbrush-introduction/007-7-using-zspheres-101.mp4' },
+    { name: 'Episode 8: Draw Mode', path: 'https://archive.org/download/3dbuzz-archive/zbrush-introduction-part-01/001-zbrush-introduction/008-8-draw-mode.mp4' },
+    { name: 'Episode 9: Move Mode', path: 'https://archive.org/download/3dbuzz-archive/zbrush-introduction-part-01/001-zbrush-introduction/009-9-move-mode.mp4' },
+    { name: 'Episode 10: Scale Mode', path: 'https://archive.org/download/3dbuzz-archive/zbrush-introduction-part-01/001-zbrush-introduction/010-10-scale-mode.mp4' },
+    { name: 'Episode 11: Rotate Mode', path: 'https://archive.org/download/3dbuzz-archive/zbrush-introduction-part-01/001-zbrush-introduction/011-11-rotate-mode.mp4' },
+    { name: 'Episode 12: ZSketch', path: 'https://archive.org/download/3dbuzz-archive/zbrush-introduction-part-01/001-zbrush-introduction/012-12-zsketch.mp4' },
+    { name: 'Episode 13: Intro to the Ki Lineman', path: 'https://archive.org/download/3dbuzz-archive/zbrush-introduction-part-01/001-zbrush-introduction/013-13-intro-to-the-ki-lineman.mp4' },
+    { name: 'Episode 14: Ki Sculpting Pt 1', path: 'https://archive.org/download/3dbuzz-archive/zbrush-introduction-part-01/001-zbrush-introduction/014-14-ki-sculpting-pt-1.mp4' },
+    { name: 'Episode 15: Ki Sculpting Pt 2', path: 'https://archive.org/download/3dbuzz-archive/zbrush-introduction-part-02/001-zbrush-introduction/015-15-ki-sculpting-pt-2.mp4' },
+    { name: 'Episode 16: Ki Sculpting Pt 3', path: 'https://archive.org/download/3dbuzz-archive/zbrush-introduction-part-02/001-zbrush-introduction/016-16-ki-sculpting-pt-3.mp4' },
+    { name: 'Episode 17: Ki Sculpting Pt 4', path: 'https://archive.org/download/3dbuzz-archive/zbrush-introduction-part-02/001-zbrush-introduction/017-17-ki-sculpting-pt-4.mp4' },
+    { name: 'Episode 18: Ki Sculpting Pt 5', path: 'https://archive.org/download/3dbuzz-archive/zbrush-introduction-part-02/001-zbrush-introduction/018-18-ki-sculpting-pt-5.mp4' },
+];
+
 const coursesContainer = document.getElementById('courses-container');
 const loadingMessage = document.querySelector('.loading-message'); 
 const modal = document.getElementById('video-modal');
@@ -233,7 +351,7 @@ function displayCourses() {
     if (loadingMessage) loadingMessage.remove();
     coursesContainer.innerHTML = ''; 
 
-    if (aiProgrammingBehaviorSeries.length === 0 && aiProgrammingPathfindingSeries.length === 0 && art101Series.length === 0 && foliageSeries.length === 0 && max101Series.length === 0 && androidSeries.length === 0 && androidPart2Series.length === 0 && eventBusSeries.length === 0 && listViewsSeries.length === 0 && contactsActivitySeries.length === 0 && topLevelNavigationSeries.length === 0 && cameraApiSendMessageSeries.length === 0 && inboxMessageDisplaySeries.length === 0 && liveWebApiSeries.length === 0 && pushNotificationsExternalLoginsSeries.length === 0) {
+    if (aiProgrammingBehaviorSeries.length === 0 && aiProgrammingPathfindingSeries.length === 0 && art101Series.length === 0 && foliageSeries.length === 0 && max101Series.length === 0 && androidSeries.length === 0 && androidPart2Series.length === 0 && eventBusSeries.length === 0 && listViewsSeries.length === 0 && contactsActivitySeries.length === 0 && topLevelNavigationSeries.length === 0 && cameraApiSendMessageSeries.length === 0 && inboxMessageDisplaySeries.length === 0 && liveWebApiSeries.length === 0 && pushNotificationsExternalLoginsSeries.length === 0 && modelingOnTheFlySeries.length === 0 && viperSeries.length === 0) {
         coursesContainer.innerHTML = '<p>No courses found.</p>';
         return;
     }
@@ -309,6 +427,78 @@ function displayCourses() {
     });
     courseContentFoliage.appendChild(seriesVideoListFoliage);
     coursesContainer.appendChild(courseGroupFoliage);
+
+    // 3ds Max Modeling a Viper Series
+    const courseGroupViper = document.createElement('div');
+    courseGroupViper.className = 'course-group'; 
+    const titleViper = document.createElement('h3');
+    
+    const courseImageViper = document.createElement('img');
+    courseImageViper.src = 'course-3dsmax.png';
+    courseImageViper.alt = '3ds Max Modeling a Viper Course';
+    courseImageViper.className = 'course-image';
+    titleViper.appendChild(courseImageViper);
+    
+    const titleTextViper = document.createElement('span');
+    titleTextViper.textContent = '3ds Max Modeling a Viper';
+    titleViper.appendChild(titleTextViper);
+    
+    titleViper.addEventListener('click', () => toggleCourseGroup(courseGroupViper));
+    courseGroupViper.appendChild(titleViper);
+
+    const courseContentViper = document.createElement('div'); 
+    courseContentViper.className = 'course-content';
+    courseGroupViper.appendChild(courseContentViper);
+
+    const seriesVideoListViper = document.createElement('ul');
+    seriesVideoListViper.className = 'series-list video-list'; 
+    viperSeries.forEach((video, index) => {
+        const li = document.createElement('li');
+        li.className = 'video-item';
+        const videoButton = document.createElement('button');
+        videoButton.textContent = video.name;
+        videoButton.addEventListener('click', () => openVideoModal(video, viperSeries, index, '3ds Max Modeling a Viper'));
+        li.appendChild(videoButton);
+        seriesVideoListViper.appendChild(li);
+    });
+    courseContentViper.appendChild(seriesVideoListViper);
+    coursesContainer.appendChild(courseGroupViper);
+
+    // 3ds Max Modeling on the Fly Series
+    const courseGroupModeling = document.createElement('div');
+    courseGroupModeling.className = 'course-group'; 
+    const titleModeling = document.createElement('h3');
+    
+    const courseImageModeling = document.createElement('img');
+    courseImageModeling.src = 'course-3dsmax.png';
+    courseImageModeling.alt = '3ds Max Modeling on the Fly Course';
+    courseImageModeling.className = 'course-image';
+    titleModeling.appendChild(courseImageModeling);
+    
+    const titleTextModeling = document.createElement('span');
+    titleTextModeling.textContent = '3ds Max Modeling on the Fly';
+    titleModeling.appendChild(titleTextModeling);
+    
+    titleModeling.addEventListener('click', () => toggleCourseGroup(courseGroupModeling));
+    courseGroupModeling.appendChild(titleModeling);
+
+    const courseContentModeling = document.createElement('div'); 
+    courseContentModeling.className = 'course-content';
+    courseGroupModeling.appendChild(courseContentModeling);
+
+    const seriesVideoListModeling = document.createElement('ul');
+    seriesVideoListModeling.className = 'series-list video-list'; 
+    modelingOnTheFlySeries.forEach((video, index) => {
+        const li = document.createElement('li');
+        li.className = 'video-item';
+        const videoButton = document.createElement('button');
+        videoButton.textContent = video.name;
+        videoButton.addEventListener('click', () => openVideoModal(video, modelingOnTheFlySeries, index, '3ds Max Modeling on the Fly'));
+        li.appendChild(videoButton);
+        seriesVideoListModeling.appendChild(li);
+    });
+    courseContentModeling.appendChild(seriesVideoListModeling);
+    coursesContainer.appendChild(courseGroupModeling);
 
     // AI Programming (restructured to contain both series)
     const courseGroupAi = document.createElement('div');
@@ -871,6 +1061,42 @@ function displayCourses() {
     });
     courseContentArt.appendChild(seriesVideoListArt);
     coursesContainer.appendChild(courseGroupArt);
+
+    // ZBrush Introduction Series
+    const courseGroupZBrush = document.createElement('div');
+    courseGroupZBrush.className = 'course-group'; 
+    const titleZBrush = document.createElement('h3');
+    
+    const courseImageZBrush = document.createElement('img');
+    courseImageZBrush.src = 'zbrush-icon.png';
+    courseImageZBrush.alt = 'ZBrush Introduction Course';
+    courseImageZBrush.className = 'course-image';
+    titleZBrush.appendChild(courseImageZBrush);
+    
+    const titleTextZBrush = document.createElement('span');
+    titleTextZBrush.textContent = 'ZBrush Introduction Series';
+    titleZBrush.appendChild(titleTextZBrush);
+    
+    titleZBrush.addEventListener('click', () => toggleCourseGroup(courseGroupZBrush));
+    courseGroupZBrush.appendChild(titleZBrush);
+
+    const courseContentZBrush = document.createElement('div'); 
+    courseContentZBrush.className = 'course-content';
+    courseGroupZBrush.appendChild(courseContentZBrush);
+
+    const seriesVideoListZBrush = document.createElement('ul');
+    seriesVideoListZBrush.className = 'series-list video-list'; 
+    zbrushIntroSeries.forEach((video, index) => {
+        const li = document.createElement('li');
+        li.className = 'video-item';
+        const videoButton = document.createElement('button');
+        videoButton.textContent = video.name;
+        videoButton.addEventListener('click', () => openVideoModal(video, zbrushIntroSeries, index, 'ZBrush Introduction'));
+        li.appendChild(videoButton);
+        seriesVideoListZBrush.appendChild(li);
+    });
+    courseContentZBrush.appendChild(seriesVideoListZBrush);
+    coursesContainer.appendChild(courseGroupZBrush);
 }
 
 function toggleCourseGroup(courseGroup) {
